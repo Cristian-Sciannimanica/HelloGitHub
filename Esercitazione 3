@@ -1,0 +1,19 @@
+#define led 5
+int lux = 0;
+
+void setup ()
+{
+  Serial.begin (9600);
+  pinMode (aumenta, IN)
+  pinMode (diminuzione, IN);
+  pinMode (led, OUT);
+}
+
+void loop ()
+{
+ 
+  int state_increase = digitalRead (aumento);
+  int state_decrease = digitalRead (diminuzione);
+ 
+  analogWrite (led, lux);
+}
